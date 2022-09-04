@@ -1,0 +1,104 @@
+.App {
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 480px;
+  width: 500px;
+  background-color: #cddada;
+  border-radius: 8px;
+}
+
+.guessed-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+}
+
+input {
+  text-decoration: none;
+  border: none;
+  height: 40px;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.guess-btn {
+  text-decoration: none;
+  border: none;
+  height: 42px;
+  border-radius: 6px;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(23, 71, 84);
+  background-color: rgb(176, 191, 194);
+}
+
+h1 {
+  color: #034b4a;
+}
+
+.guess-btn:hover {
+  background-color: #237774;
+  cursor: pointer;
+  color: rgb(214, 224, 224);
+}
+
+.input-with-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.moves-left {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.play-again {
+  background-color: rgb(141, 175, 181);
+  text-decoration: none;
+  border: none;
+  height: 42px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: rgb(18, 53, 67);
+  margin: 10px;
+  font-weight: bolder;
+  width: 200px;
+}
+
+.play-again:hover {
+  background-color: #237774;
+  cursor: pointer;
+  color: rgb(214, 224, 224);
+}
+
+.message {
+  margin: 4px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.mapped-numbers {
+  display: flex;
+  justify-content: center;
+  margin-left: 4px;
+  background-color: #237774;
+  border-radius: 40px;
+  padding: 3px;
+  padding-bottom: 4px;
+  height: 22px;
+  width: 22px;
+  color: #e4eaea;
+  font-weight: bolder;
+}
