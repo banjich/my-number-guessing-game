@@ -102,3 +102,22 @@ h1 {
   color: #e4eaea;
   font-weight: bolder;
 }
+
+.reset-btn {
+  background-color: rgb(141, 175, 181);
+  text-decoration: none;
+  border: none;
+  height: 42px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: rgb(18, 53, 67);
+  margin: 10px;
+  font-weight: bolder;
+  width: 200px;
+}
+
+.reset-btn:hover {
+  background-color: #237774;
+  cursor: pointer;
+  color: rgb(214, 224, 224);
+}

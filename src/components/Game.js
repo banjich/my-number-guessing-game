@@ -76,6 +76,15 @@ const Game = () => {
         message={message}
         onPlayAgain={onPlayAgain}
       />
+      {!endGame && (
+        <button
+          className='reset-btn'
+          onClick={onPlayAgain}
+          disabled={!disabled}
+        >
+          Reset
+        </button>
+      )}
     </div>
   );
 };
